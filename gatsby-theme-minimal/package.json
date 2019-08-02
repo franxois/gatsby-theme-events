@@ -4,7 +4,21 @@
   "main": "index.js",
   "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
   "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
   "peerDependencies": {
-    "gatsby": "^2.6.0"
+    "gatsby": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "gatsby": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "gatsby-source-filesystem": "^2.1.8",
+    "gatsby-transformer-yaml": "^2.2.4"
   }
 }
